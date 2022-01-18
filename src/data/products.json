@@ -1,0 +1,47 @@
+[
+  {
+    "id": "01",
+    "name": "Fraise",
+    "price": 2
+  },
+  {
+    "id": "02",
+    "name": "Kiwi",
+    "price": 4
+  },
+  {
+    "id": "03",
+    "name": "Pomelo",
+    "price": 2
+  },
+  {
+    "id": "04",
+    "name": "Pomme",
+    "price": 2
+  },
+  {
+    "id": "05",
+    "name": "Clementine",
+    "price": 2
+  },
+  {
+    "id": "06",
+    "name": "Chocolat",
+    "price": 2
+  },
+  {
+    "id": "07",
+    "name": "Pain",
+    "price": 2
+  },
+  {
+    "id": "08",
+    "name": "Lait",
+    "price": 2
+  },
+  {
+    "id": "09",
+    "name": "Soda",
+    "price": 2
+  }
+]
