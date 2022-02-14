@@ -2,33 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import ButtonAddAndDeleteOneProduct from "../components/ButtonAddAndDeleteOneProduct"
 
-const SubTitle = styled.h2({
-  textAlign: "center",
-  backgroundColor: "palevioletred",
-})
-
-const QteProductSelected = styled.p({
-  textAlign: "center",
-})
-
-const List = styled.ul({
-  background: "darkslateblue",
-  padding: "20px",
-  width: "18%",
-  listStyle: "none",
-  margin: "auto",
-  li: {
-    background: "palevioletred",
-    margin: "5px",
-    color: "white",
-  },
-})
-
-const Total = styled.p({
-  color: "white",
-  textAlign: "center",
-})
-
 const Cart = function ({ products, total, productsQte, addOrRemoveProduct }) {
   const reducer = (previousValue, currentValue) => previousValue + currentValue
 
@@ -66,6 +39,33 @@ const Cart = function ({ products, total, productsQte, addOrRemoveProduct }) {
     </>
   )
 }
+
+const SubTitle = styled.h2({
+  textAlign: "center",
+  backgroundColor: "palevioletred",
+})
+
+const QteProductSelected = styled.p({
+  textAlign: "center",
+})
+
+const List = styled.ul({
+  background: "darkslateblue",
+  padding: "20px",
+  width: "18%",
+  listStyle: "none",
+  margin: "auto",
+  li: {
+    background: "palevioletred",
+    margin: "5px",
+    color: "white",
+  },
+})
+
+const Total = styled.p({
+  color: "white",
+  textAlign: "center",
+})
 
 /* eslint react/prop-types: 0 */
 

@@ -2,18 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import ButtonAddAndDeleteOneProduct from "../components/ButtonAddAndDeleteOneProduct"
 
-const List = styled.ul({
-  background: "darkslateblue",
-  padding: "20px",
-  width: "18%",
-  listStyle: "none",
-  margin: "auto",
-  li: {
-    background: "palevioletred",
-    margin: "5px",
-  },
-})
-
 const Products = function ({ products, addOrRemoveProduct, productsQte }) {
   const qteProducts = Object.values(productsQte)
   return (
@@ -40,6 +28,18 @@ const Products = function ({ products, addOrRemoveProduct, productsQte }) {
     </List>
   )
 }
+
+const List = styled.ul({
+  background: "darkslateblue",
+  padding: "20px",
+  width: "18%",
+  listStyle: "none",
+  margin: "auto",
+  li: {
+    background: "palevioletred",
+    margin: "5px",
+  },
+})
 /* eslint react/prop-types: 0 */
 
 export default Products

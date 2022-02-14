@@ -1,6 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 
+const Header = function () {
+  return (
+    <HeaderContainer>
+      <Title>ESHOP</Title>
+    </HeaderContainer>
+  )
+}
+
 const Title = styled.h1({
   textAlign: "center",
   margin: "0",
@@ -14,13 +22,5 @@ const HeaderContainer = styled.header({
   padding: "0",
   backgroundColor: "darkslateblue",
 })
-
-const Header = function () {
-  return (
-    <HeaderContainer>
-      <Title>ESHOP</Title>
-    </HeaderContainer>
-  )
-}
 
 export default Header
